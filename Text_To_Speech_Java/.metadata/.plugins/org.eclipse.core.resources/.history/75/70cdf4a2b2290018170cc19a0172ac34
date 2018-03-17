@@ -1,0 +1,20 @@
+package speech.main;
+
+import java.io.File;
+
+public class textSpeech {
+	
+	private static final String url =  "http://translate.google.com/translate_tts?ie=UTF-8&q={0}&tl={1}&prev=input";
+
+	public static void main(String[] args) {
+		say("Hello");
+
+	}
+	
+	public static void say(String text){
+		
+		File file = new File("translate.mp3"); //file that save the audio of translated text
+		
+	}
+
+}
